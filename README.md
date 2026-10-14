@@ -21,6 +21,12 @@ O perfil que abre por padrão (Aurora Valença) é um personagem fictício, com 
 - **Mapa**: Brasil com os 27 estados e, ao clicar em um estado, os limites dos municípios e os locais de votação (nome, endereço, seções e eleitores).
 - **Central de Cabos, Engajamento, Central Demográfica e Central de Mensagens** (envio bloqueado até haver integração autorizada).
 
+## Login
+
+A página abre na tela de login: entrar com e-mail e senha, criar conta ou ver a demonstração. Ao criar a conta é gerado um **código de recuperação**, a única forma de redefinir a senha (não há envio de e-mail). Após 5 tentativas erradas o login trava por 1 minuto.
+
+**Importante:** não há servidor. As contas e os dados ficam só no navegador do aparelho (`localStorage`), e cada conta tem seus próprios dados. As senhas são guardadas com PBKDF2-SHA256 e sal aleatório, mas a proteção vale apenas contra quem usa aquele navegador: quem tem acesso técnico ao arquivo ou ao navegador consegue ler o conteúdo. Para proteger dados de verdade, entre vários usuários e aparelhos, é necessário um servidor com autenticação (próximo passo do projeto).
+
 ## Assistente
 
 O botão de chat no canto da tela abre um assistente que explica qualquer parte da plataforma. Ele responde pelo manual interno (arquivo `index.html`, constante `KB`). Quando a página roda dentro do claude.ai, ele também usa o Claude para respostas mais naturais. Ele só enxerga contagens (quantos cadastros, cabos e publicações), nunca nomes, telefones ou endereços.
