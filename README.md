@@ -21,6 +21,10 @@ O perfil que abre por padrão (Aurora Valença) é um personagem fictício, com 
 - **Mapa**: Brasil com os 27 estados e, ao clicar em um estado, os limites dos municípios e os locais de votação (nome, endereço, seções e eleitores).
 - **Central de Cabos, Engajamento, Central Demográfica e Central de Mensagens** (envio bloqueado até haver integração autorizada).
 
+## Assistente
+
+O botão de chat no canto da tela abre um assistente que explica qualquer parte da plataforma. Ele responde pelo manual interno (arquivo `index.html`, constante `KB`). Quando a página roda dentro do claude.ai, ele também usa o Claude para respostas mais naturais. Ele só enxerga contagens (quantos cadastros, cabos e publicações), nunca nomes, telefones ou endereços.
+
 ## Dados e fontes
 
 | Dado | Fonte |
