@@ -10,6 +10,8 @@ Depois de ativar o GitHub Pages, a página fica em:
 
 `https://SEU_USUARIO.github.io/NOME_DO_REPOSITORIO/`
 
+O perfil que abre por padrão (Aurora Valença) é um personagem fictício, com foto e capa ilustradas, criado só para demonstração. Edite pelo botão **Editar perfil**.
+
 ## O que tem
 
 - **Perfil**: capa, foto, biografia, publicações com foto e "post de campanha", cortes e materiais.
