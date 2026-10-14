@@ -1,0 +1,7 @@
+# dados brutos grandes (baixe do TSE/IBGE, não versione)
+*.csv
+*.zip
+BR
+BR__1_
+municipios.json
+.DS_Store
