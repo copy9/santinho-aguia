@@ -14,12 +14,16 @@ O perfil que abre por padrão (Aurora Valença) é um personagem fictício, com 
 
 ## O que tem
 
+- **Login**: contas locais, recuperação de senha por código e modo demonstração.
 - **Perfil**: capa, foto, biografia, publicações com foto e "post de campanha", cortes e materiais.
-- **Cabos eleitorais**: convites únicos e árvore de cabos.
-- **Eleitores**: cadastro com consentimento obrigatório (LGPD) e árvore por ordem de chegada.
+- **Cabos eleitorais**: convites únicos, árvore de cabos e remoção.
+- **Eleitores**: cadastro com consentimento obrigatório (LGPD), campos sensíveis opcionais, exclusão de cadastro e árvore por ordem de chegada.
 - **Painel Eleitoral**: eleitorado oficial do TSE por estado, meta territorial, cobertura e eleitores por cabo.
-- **Mapa**: Brasil com os 27 estados e, ao clicar em um estado, os limites dos municípios e os locais de votação (nome, endereço, seções e eleitores).
-- **Central de Cabos, Engajamento, Central Demográfica e Central de Mensagens** (envio bloqueado até haver integração autorizada).
+- **Mapa**: Brasil com os 27 estados e, por estado, os limites dos municípios e os locais de votação.
+- **Central de Cabos**, **Engajamento** (ranking de cabos e atividade), **Métricas de Indicação** (origem, dias e horários), **Central Demográfica** e **Base TSE** (tabela por estado, busca e CSV).
+- **Central de Mensagens**: envio manual, um contato por vez, abrindo o WhatsApp com a mensagem pronta.
+- **Dados**: backup (.json), importação, eleitores em .csv e apagar tudo.
+- **Assistente** de ajuda com manual interno.
 
 ## Login
 
